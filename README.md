@@ -1,4 +1,4 @@
-### unexpected-jest-snapshot
+# unexpected-jest-snapshot
 
 This module extends the [unexpected](https://github.com/unexpectedjs/unexpected)
 assertion library with integration with [jest](https://facebook.github.io/jest/)
