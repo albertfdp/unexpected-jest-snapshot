@@ -1,0 +1,16 @@
+{
+  "name": "unexpected-jest-snapshot",
+  "version": "0.1.0",
+  "description": "Jest snapshots with unexpected",
+  "main": "src/index.js",
+  "repository": "https://github.com/albertfdp/unexpected-jest-snapshot",
+  "author": "Albert Fernández <albert@nandez.cat>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "18.1.0",
+    "unexpected": "10.22.2"
+  }
+}
