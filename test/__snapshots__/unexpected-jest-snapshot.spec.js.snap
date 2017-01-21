@@ -1,6 +1,7 @@
 exports[`unexpected-jest-snapshot snapshots creates a snapshot 1`] = `"foo"`;
 
-exports[`unexpected-jest-snapshot with react-test-renderer creates a snapshot of the DOM 1`] = `
-<Component
-  name="foo" />
+exports[`unexpected-jest-snapshot with react-test-renderer creates a snapshot of the rendered component 1`] = `
+<div>
+  Name: foo
+</div>
 `;

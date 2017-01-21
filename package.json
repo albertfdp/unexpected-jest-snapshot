@@ -7,12 +7,21 @@
   "author": "Albert Fernández <albert@nandez.cat>",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "standard",
+    "travis": "yarn lint && yarn test"
   },
   "devDependencies": {
     "jest": "18.1.0",
     "react": "15.4.2",
     "react-test-renderer": "15.4.2",
+    "standard": "8.6.0",
     "unexpected": "10.22.2"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it"
+    ]
   }
 }

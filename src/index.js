@@ -1,4 +1,4 @@
-const jestExpect = expect
+const jestExpect = global.expect
 
 module.exports = {
   name: 'unexpected-jest-snapshot',

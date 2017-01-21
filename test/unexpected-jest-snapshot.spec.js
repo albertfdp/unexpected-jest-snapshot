@@ -20,8 +20,12 @@ describe('unexpected-jest-snapshot', () => {
 
   describe('with react-test-renderer', () => {
     it('creates a snapshot of the rendered component', () => {
+      const tree = TestRenderer.create(
+        React.createElement(Component, { name: 'foo' })
+      ).toJSON()
+
       expect(
-        React.createElement(Component, { name: 'foo' }),
+        tree,
         'to match snapshot'
       )
     })
