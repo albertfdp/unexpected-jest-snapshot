@@ -6,7 +6,6 @@ snapshot testing.
 
 [![NPM version](https://badge.fury.io/js/unexpected-jest-snapshot.svg)](http://badge.fury.io/js/unexpected-jest-snapshot)
 [![Build Status](https://travis-ci.org/albertfdp/unexpected-jest-snapshot.svg?branch=master)](https://travis-ci.org/albertfdp/unexpected-jest-snapshot)
-[![Dependency Status](https://david-dm.org/albertfdp/unexpected-jest-snapshot.svg)](https://david-dm.org/albertfdp/unexpected-jest-snapshot)
 
 ## How to use it
 
