@@ -7,19 +7,19 @@ const TestRenderer = require('react-test-renderer')
 const expect = unexpected.clone()
   .use(unexpectedJestSnapshot)
 
-const Component = ({ name }) => (
-  React.createElement('div', null, `Name: ${name}`)
-)
+const Component = function (props) {
+  return React.createElement('div', null, `Name: ${props.name}`)
+}
 
-describe('unexpected-jest-snapshot', () => {
-  describe('snapshots', () => {
-    it('creates a snapshot', () => {
+describe('unexpected-jest-snapshot', function () {
+  describe('snapshots', function () {
+    it('creates a snapshot', function () {
       expect('foo', 'to match snapshot')
     })
   })
 
-  describe('with react-test-renderer', () => {
-    it('creates a snapshot of the rendered component', () => {
+  describe('with react-test-renderer', function () {
+    it('creates a snapshot of the rendered component', function () {
       const tree = TestRenderer.create(
         React.createElement(Component, { name: 'foo' })
       ).toJSON()
