@@ -7,6 +7,8 @@ snapshot testing.
 [![NPM version](https://badge.fury.io/js/unexpected-jest-snapshot.svg)](http://badge.fury.io/js/unexpected-jest-snapshot)
 [![Build Status](https://travis-ci.org/albertfdp/unexpected-jest-snapshot.svg?branch=master)](https://travis-ci.org/albertfdp/unexpected-jest-snapshot)
 
+![unexpected-jocker](http://i.giphy.com/qu7SYku81wy7S.gif)
+
 ## How to use it
 
 ### Node
